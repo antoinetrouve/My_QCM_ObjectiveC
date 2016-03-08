@@ -14,7 +14,7 @@
 -(void)insert:(TypeMedia *)typeMedia;
 -(NSArray*)getAll;
 -(NSManagedObject*)getById:(NSManagedObject *) typeMedia;
--(void)update:(NSManagedObject *) managedObject withCity:(TypeMedia *) typeMedia;
+-(void)update:(NSManagedObject *) managedObject withTypeMedia:(TypeMedia *) typeMedia;
 -(void)remove:(NSManagedObject *) typeMedia;
 
 @end

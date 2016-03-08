@@ -14,6 +14,6 @@
 -(void)insert:(Mcq *)mcq;
 -(NSArray*)getAll;
 -(NSManagedObject*)getById:(NSManagedObject *) mcq;
--(void)update:(NSManagedObject *) managedObject withCity:(Mcq *) mcq;
+-(void)update:(NSManagedObject *) managedObject withMcq:(Mcq *) mcq;
 -(void)remove:(NSManagedObject *) mcq;
 @end

@@ -14,6 +14,6 @@
 -(void)insert:(Answer *)answer;
 -(NSArray*)getAll;
 -(NSManagedObject*)getById:(NSManagedObject *) answer;
--(void)update:(NSManagedObject *) managedObject withCity:(Answer *) answer;
+-(void)update:(NSManagedObject *) managedObject withAnswer:(Answer *) answer;
 -(void)remove:(NSManagedObject *) answer;
 @end

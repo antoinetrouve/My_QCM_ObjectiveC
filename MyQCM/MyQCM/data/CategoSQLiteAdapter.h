@@ -14,6 +14,6 @@
 -(void)insert:(Catego *)catego;
 -(NSArray*)getAll;
 -(NSManagedObject*)getById:(NSManagedObject *) catego;
--(void)update:(NSManagedObject *) managedObject withCity:(Catego *) catego;
+-(void)update:(NSManagedObject *) managedObject withCatego:(Catego *) catego;
 -(void)remove:(NSManagedObject *) catego;
 @end
