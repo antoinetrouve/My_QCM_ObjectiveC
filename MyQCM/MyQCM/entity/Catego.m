@@ -10,5 +10,4 @@
 
 @implementation Catego
 @synthesize name,createdAt,updatedAt,mcqs;
-
 @end

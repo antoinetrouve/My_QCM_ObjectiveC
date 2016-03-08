@@ -9,5 +9,5 @@
 #import "Team.h"
 
 @implementation Team
-
+@synthesize name,createdAt,updatedAt,mcqs,users;
 @end

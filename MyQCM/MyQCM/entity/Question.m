@@ -9,5 +9,5 @@
 #import "Question.h"
 
 @implementation Question
-
+@synthesize name,createdAt,updatedAt,media,answers,mcq;
 @end

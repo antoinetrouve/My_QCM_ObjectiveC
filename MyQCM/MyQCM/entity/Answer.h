@@ -11,16 +11,9 @@
 
 
 @interface Answer : NSObject
-{
-    NSString* value;
-    Boolean* isValid;
-    NSDate* createdAt;
-    NSDate* updatededAt;
-    Question* question;
-}
 // attribut valeur correspond à la valeur de la réponse
 @property (strong, nonatomic) NSString* value;
-@property (nonatomic) Boolean* isValid;
+@property (nonatomic) BOOL isValid;
 @property (strong,nonatomic) NSDate* createdAt;
 @property (strong,nonatomic) NSDate* updatedAt;
 @property (strong, nonatomic) Question* question;

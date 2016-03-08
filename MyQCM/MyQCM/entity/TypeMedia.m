@@ -9,5 +9,5 @@
 #import "TypeMedia.h"
 
 @implementation TypeMedia
-
+@synthesize name,createdAt,updatedAt,medias;
 @end

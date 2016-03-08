@@ -9,5 +9,5 @@
 #import "Media.h"
 
 @implementation Media
-
+@synthesize name,url,createdAt,updatedAt,typeMedia;
 @end

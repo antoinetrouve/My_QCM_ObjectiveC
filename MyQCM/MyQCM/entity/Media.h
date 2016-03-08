@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TypeMedia.h"
 
 @interface Media : NSObject
-
+@property (nonatomic, strong) NSString* name;
+@property (nonatomic, strong) NSString* url;
+@property (nonatomic, strong) NSDate* createdAt;
+@property (nonatomic, strong) NSDate* updatedAt;
+@property (nonatomic, strong) TypeMedia* typeMedia;
 @end

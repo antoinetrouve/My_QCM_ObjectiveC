@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Media.h"
+#import "Mcq.h"
 
 @interface Question : NSObject
+@property(nonatomic, strong) NSString* name;
+@property(nonatomic, strong) NSDate* createdAt;
+@property(nonatomic, strong) NSDate* updatedAt;
+@property(nonatomic, strong) Media* media;
+@property(nonatomic, strong) Mcq* mcq;
+@property(nonatomic, strong) NSArray* answers;
 
 @end

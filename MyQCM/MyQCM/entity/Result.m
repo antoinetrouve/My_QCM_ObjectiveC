@@ -9,5 +9,5 @@
 #import "Result.h"
 
 @implementation Result
-
+@synthesize score,isCompleted,user,mcq;
 @end

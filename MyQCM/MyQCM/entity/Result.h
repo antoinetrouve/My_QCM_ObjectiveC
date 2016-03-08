@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "User.h"
+#import "Mcq.h"
 
 @interface Result : NSObject
-
+@property(nonatomic) int score;
+@property(nonatomic) BOOL isCompleted;
+@property(nonatomic,strong) User* user;
+@property(nonatomic,strong) Mcq* mcq;
 @end

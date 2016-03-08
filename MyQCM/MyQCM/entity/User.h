@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Team.h"
 
 @interface User : NSObject
-
+@property(nonatomic,strong) NSString* name;
+@property(nonatomic,strong) Team* team;
+@property(nonatomic,strong) NSDate* createdAt;
+@property(nonatomic,strong) NSDate* updatedAt;
+@property(nonatomic,strong) NSArray* results;
 @end
