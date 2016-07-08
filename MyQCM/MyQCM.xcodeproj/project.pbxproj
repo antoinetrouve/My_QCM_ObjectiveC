@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9A263B1C8DC27000365BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A263A1C8DC27000365BFA /* main.m */; };
+		EC9A263E1C8DC27000365BFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A263D1C8DC27000365BFA /* AppDelegate.m */; };
+		EC9A26411C8DC27000365BFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26401C8DC27000365BFA /* ViewController.m */; };
+		EC9A26441C8DC27000365BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9A26421C8DC27000365BFA /* Main.storyboard */; };
+		EC9A26471C8DC27000365BFA /* MyQCM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26451C8DC27000365BFA /* MyQCM.xcdatamodeld */; };
+		EC9A26491C8DC27000365BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9A26481C8DC27000365BFA /* Assets.xcassets */; };
+		EC9A264C1C8DC27000365BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9A264A1C8DC27000365BFA /* LaunchScreen.storyboard */; };
+		EC9A265A1C8DCB0600365BFA /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26591C8DCB0600365BFA /* Answer.m */; };
+		EC9A265D1C8DCB2400365BFA /* AnswerSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A265C1C8DCB2400365BFA /* AnswerSQLiteAdapter.m */; };
+		EC9A26601C8DCB6F00365BFA /* Catego.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A265F1C8DCB6F00365BFA /* Catego.m */; };
+		EC9A26631C8DCBB200365BFA /* CategoSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26621C8DCBB200365BFA /* CategoSQLiteAdapter.m */; };
+		EC9A26661C8DCC2900365BFA /* Mcq.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26651C8DCC2900365BFA /* Mcq.m */; };
+		EC9A266C1C8DCC7500365BFA /* McqSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A266B1C8DCC7500365BFA /* McqSQLiteAdapter.m */; };
+		EC9A26791C8DCD5E00365BFA /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26781C8DCD5E00365BFA /* Media.m */; };
+		EC9A267C1C8DCD7B00365BFA /* MediaSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A267B1C8DCD7B00365BFA /* MediaSQLiteAdapter.m */; };
+		EC9A267F1C8DCD9300365BFA /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A267E1C8DCD9300365BFA /* Question.m */; };
+		EC9A26821C8DCDA900365BFA /* QuestionSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26811C8DCDA900365BFA /* QuestionSQLiteAdapter.m */; };
+		EC9A26851C8DCDBD00365BFA /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26841C8DCDBD00365BFA /* Result.m */; };
+		EC9A26881C8DCDD400365BFA /* ResultSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26871C8DCDD400365BFA /* ResultSQLiteAdapter.m */; };
+		EC9A268B1C8DCDE600365BFA /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A268A1C8DCDE600365BFA /* Team.m */; };
+		EC9A268E1C8DCDFF00365BFA /* TeamSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A268D1C8DCDFF00365BFA /* TeamSQLiteAdapter.m */; };
+		EC9A26911C8DCE1A00365BFA /* TypeMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26901C8DCE1A00365BFA /* TypeMedia.m */; };
+		EC9A26941C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26931C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.m */; };
+		EC9A269A1C8DCEA100365BFA /* UserSQLiteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A26991C8DCEA100365BFA /* UserSQLiteAdapter.m */; };
+		EC9A269D1C8DCEC200365BFA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A269C1C8DCEC200365BFA /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC9A26361C8DC27000365BFA /* MyQCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9A263A1C8DC27000365BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9A263C1C8DC27000365BFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9A263D1C8DC27000365BFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9A263F1C8DC27000365BFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9A26401C8DC27000365BFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9A26431C8DC27000365BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9A26461C8DC27000365BFA /* MyQCM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyQCM.xcdatamodel; sourceTree = "<group>"; };
+		EC9A26481C8DC27000365BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9A264B1C8DC27000365BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9A264D1C8DC27000365BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9A26581C8DCB0600365BFA /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = entity/Answer.h; sourceTree = "<group>"; };
+		EC9A26591C8DCB0600365BFA /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Answer.m; path = entity/Answer.m; sourceTree = "<group>"; };
+		EC9A265B1C8DCB2400365BFA /* AnswerSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnswerSQLiteAdapter.h; path = data/AnswerSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A265C1C8DCB2400365BFA /* AnswerSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnswerSQLiteAdapter.m; path = data/AnswerSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A265E1C8DCB6F00365BFA /* Catego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Catego.h; path = entity/Catego.h; sourceTree = "<group>"; };
+		EC9A265F1C8DCB6F00365BFA /* Catego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Catego.m; path = entity/Catego.m; sourceTree = "<group>"; };
+		EC9A26611C8DCBB200365BFA /* CategoSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoSQLiteAdapter.h; path = data/CategoSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A26621C8DCBB200365BFA /* CategoSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoSQLiteAdapter.m; path = data/CategoSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A26641C8DCC2900365BFA /* Mcq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mcq.h; path = entity/Mcq.h; sourceTree = "<group>"; };
+		EC9A26651C8DCC2900365BFA /* Mcq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mcq.m; path = entity/Mcq.m; sourceTree = "<group>"; };
+		EC9A266A1C8DCC7500365BFA /* McqSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = McqSQLiteAdapter.h; path = data/McqSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A266B1C8DCC7500365BFA /* McqSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = McqSQLiteAdapter.m; path = data/McqSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A26771C8DCD5E00365BFA /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Media.h; path = entity/Media.h; sourceTree = "<group>"; };
+		EC9A26781C8DCD5E00365BFA /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Media.m; path = entity/Media.m; sourceTree = "<group>"; };
+		EC9A267A1C8DCD7B00365BFA /* MediaSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaSQLiteAdapter.h; path = data/MediaSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A267B1C8DCD7B00365BFA /* MediaSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaSQLiteAdapter.m; path = data/MediaSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A267D1C8DCD9300365BFA /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = entity/Question.h; sourceTree = "<group>"; };
+		EC9A267E1C8DCD9300365BFA /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = entity/Question.m; sourceTree = "<group>"; };
+		EC9A26801C8DCDA900365BFA /* QuestionSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionSQLiteAdapter.h; path = data/QuestionSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A26811C8DCDA900365BFA /* QuestionSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionSQLiteAdapter.m; path = data/QuestionSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A26831C8DCDBD00365BFA /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Result.h; path = entity/Result.h; sourceTree = "<group>"; };
+		EC9A26841C8DCDBD00365BFA /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Result.m; path = entity/Result.m; sourceTree = "<group>"; };
+		EC9A26861C8DCDD400365BFA /* ResultSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultSQLiteAdapter.h; path = data/ResultSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A26871C8DCDD400365BFA /* ResultSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultSQLiteAdapter.m; path = data/ResultSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A26891C8DCDE600365BFA /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = entity/Team.h; sourceTree = "<group>"; };
+		EC9A268A1C8DCDE600365BFA /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = entity/Team.m; sourceTree = "<group>"; };
+		EC9A268C1C8DCDFF00365BFA /* TeamSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamSQLiteAdapter.h; path = data/TeamSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A268D1C8DCDFF00365BFA /* TeamSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamSQLiteAdapter.m; path = data/TeamSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A268F1C8DCE1A00365BFA /* TypeMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeMedia.h; path = entity/TypeMedia.h; sourceTree = "<group>"; };
+		EC9A26901C8DCE1A00365BFA /* TypeMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypeMedia.m; path = entity/TypeMedia.m; sourceTree = "<group>"; };
+		EC9A26921C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeMediaSQLiteAdapter.h; path = data/TypeMediaSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A26931C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypeMediaSQLiteAdapter.m; path = data/TypeMediaSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A26981C8DCEA100365BFA /* UserSQLiteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSQLiteAdapter.h; path = data/UserSQLiteAdapter.h; sourceTree = "<group>"; };
+		EC9A26991C8DCEA100365BFA /* UserSQLiteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSQLiteAdapter.m; path = data/UserSQLiteAdapter.m; sourceTree = "<group>"; };
+		EC9A269B1C8DCEC200365BFA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = entity/User.h; sourceTree = "<group>"; };
+		EC9A269C1C8DCEC200365BFA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = entity/User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9A26331C8DC27000365BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9A262D1C8DC27000365BFA = {
+			isa = PBXGroup;
+			children = (
+				EC9A26381C8DC27000365BFA /* MyQCM */,
+				EC9A26371C8DC27000365BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9A26371C8DC27000365BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A26361C8DC27000365BFA /* MyQCM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9A26381C8DC27000365BFA /* MyQCM */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A26541C8DC2B800365BFA /* entity */,
+				EC9A26531C8DC2A900365BFA /* data */,
+				EC9A263C1C8DC27000365BFA /* AppDelegate.h */,
+				EC9A263D1C8DC27000365BFA /* AppDelegate.m */,
+				EC9A263F1C8DC27000365BFA /* ViewController.h */,
+				EC9A26401C8DC27000365BFA /* ViewController.m */,
+				EC9A26421C8DC27000365BFA /* Main.storyboard */,
+				EC9A26481C8DC27000365BFA /* Assets.xcassets */,
+				EC9A264A1C8DC27000365BFA /* LaunchScreen.storyboard */,
+				EC9A264D1C8DC27000365BFA /* Info.plist */,
+				EC9A26451C8DC27000365BFA /* MyQCM.xcdatamodeld */,
+				EC9A26391C8DC27000365BFA /* Supporting Files */,
+			);
+			path = MyQCM;
+			sourceTree = "<group>";
+		};
+		EC9A26391C8DC27000365BFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A263A1C8DC27000365BFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9A26531C8DC2A900365BFA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A265B1C8DCB2400365BFA /* AnswerSQLiteAdapter.h */,
+				EC9A265C1C8DCB2400365BFA /* AnswerSQLiteAdapter.m */,
+				EC9A26611C8DCBB200365BFA /* CategoSQLiteAdapter.h */,
+				EC9A26621C8DCBB200365BFA /* CategoSQLiteAdapter.m */,
+				EC9A266A1C8DCC7500365BFA /* McqSQLiteAdapter.h */,
+				EC9A266B1C8DCC7500365BFA /* McqSQLiteAdapter.m */,
+				EC9A267A1C8DCD7B00365BFA /* MediaSQLiteAdapter.h */,
+				EC9A267B1C8DCD7B00365BFA /* MediaSQLiteAdapter.m */,
+				EC9A26801C8DCDA900365BFA /* QuestionSQLiteAdapter.h */,
+				EC9A26811C8DCDA900365BFA /* QuestionSQLiteAdapter.m */,
+				EC9A26861C8DCDD400365BFA /* ResultSQLiteAdapter.h */,
+				EC9A26871C8DCDD400365BFA /* ResultSQLiteAdapter.m */,
+				EC9A268C1C8DCDFF00365BFA /* TeamSQLiteAdapter.h */,
+				EC9A268D1C8DCDFF00365BFA /* TeamSQLiteAdapter.m */,
+				EC9A26921C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.h */,
+				EC9A26931C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.m */,
+				EC9A26981C8DCEA100365BFA /* UserSQLiteAdapter.h */,
+				EC9A26991C8DCEA100365BFA /* UserSQLiteAdapter.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		EC9A26541C8DC2B800365BFA /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A26581C8DCB0600365BFA /* Answer.h */,
+				EC9A26591C8DCB0600365BFA /* Answer.m */,
+				EC9A265E1C8DCB6F00365BFA /* Catego.h */,
+				EC9A265F1C8DCB6F00365BFA /* Catego.m */,
+				EC9A26641C8DCC2900365BFA /* Mcq.h */,
+				EC9A26651C8DCC2900365BFA /* Mcq.m */,
+				EC9A26771C8DCD5E00365BFA /* Media.h */,
+				EC9A26781C8DCD5E00365BFA /* Media.m */,
+				EC9A267D1C8DCD9300365BFA /* Question.h */,
+				EC9A267E1C8DCD9300365BFA /* Question.m */,
+				EC9A26831C8DCDBD00365BFA /* Result.h */,
+				EC9A26841C8DCDBD00365BFA /* Result.m */,
+				EC9A26891C8DCDE600365BFA /* Team.h */,
+				EC9A268A1C8DCDE600365BFA /* Team.m */,
+				EC9A268F1C8DCE1A00365BFA /* TypeMedia.h */,
+				EC9A26901C8DCE1A00365BFA /* TypeMedia.m */,
+				EC9A269B1C8DCEC200365BFA /* User.h */,
+				EC9A269C1C8DCEC200365BFA /* User.m */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9A26351C8DC27000365BFA /* MyQCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9A26501C8DC27000365BFA /* Build configuration list for PBXNativeTarget "MyQCM" */;
+			buildPhases = (
+				EC9A26321C8DC27000365BFA /* Sources */,
+				EC9A26331C8DC27000365BFA /* Frameworks */,
+				EC9A26341C8DC27000365BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyQCM;
+			productName = MyQCM;
+			productReference = EC9A26361C8DC27000365BFA /* MyQCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9A262E1C8DC27000365BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iia;
+				TargetAttributes = {
+					EC9A26351C8DC27000365BFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EC9A26311C8DC27000365BFA /* Build configuration list for PBXProject "MyQCM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9A262D1C8DC27000365BFA;
+			productRefGroup = EC9A26371C8DC27000365BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9A26351C8DC27000365BFA /* MyQCM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9A26341C8DC27000365BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9A264C1C8DC27000365BFA /* LaunchScreen.storyboard in Resources */,
+				EC9A26491C8DC27000365BFA /* Assets.xcassets in Resources */,
+				EC9A26441C8DC27000365BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9A26321C8DC27000365BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9A26941C8DCE2F00365BFA /* TypeMediaSQLiteAdapter.m in Sources */,
+				EC9A26411C8DC27000365BFA /* ViewController.m in Sources */,
+				EC9A267F1C8DCD9300365BFA /* Question.m in Sources */,
+				EC9A26881C8DCDD400365BFA /* ResultSQLiteAdapter.m in Sources */,
+				EC9A269A1C8DCEA100365BFA /* UserSQLiteAdapter.m in Sources */,
+				EC9A26471C8DC27000365BFA /* MyQCM.xcdatamodeld in Sources */,
+				EC9A269D1C8DCEC200365BFA /* User.m in Sources */,
+				EC9A26821C8DCDA900365BFA /* QuestionSQLiteAdapter.m in Sources */,
+				EC9A263E1C8DC27000365BFA /* AppDelegate.m in Sources */,
+				EC9A263B1C8DC27000365BFA /* main.m in Sources */,
+				EC9A265A1C8DCB0600365BFA /* Answer.m in Sources */,
+				EC9A265D1C8DCB2400365BFA /* AnswerSQLiteAdapter.m in Sources */,
+				EC9A26661C8DCC2900365BFA /* Mcq.m in Sources */,
+				EC9A268B1C8DCDE600365BFA /* Team.m in Sources */,
+				EC9A26631C8DCBB200365BFA /* CategoSQLiteAdapter.m in Sources */,
+				EC9A26911C8DCE1A00365BFA /* TypeMedia.m in Sources */,
+				EC9A268E1C8DCDFF00365BFA /* TeamSQLiteAdapter.m in Sources */,
+				EC9A26601C8DCB6F00365BFA /* Catego.m in Sources */,
+				EC9A266C1C8DCC7500365BFA /* McqSQLiteAdapter.m in Sources */,
+				EC9A26851C8DCDBD00365BFA /* Result.m in Sources */,
+				EC9A267C1C8DCD7B00365BFA /* MediaSQLiteAdapter.m in Sources */,
+				EC9A26791C8DCD5E00365BFA /* Media.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC9A26421C8DC27000365BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9A26431C8DC27000365BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9A264A1C8DC27000365BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9A264B1C8DC27000365BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9A264E1C8DC27000365BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC9A264F1C8DC27000365BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9A26511C8DC27000365BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyQCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iia.MyQCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9A26521C8DC27000365BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyQCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iia.MyQCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9A26311C8DC27000365BFA /* Build configuration list for PBXProject "MyQCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9A264E1C8DC27000365BFA /* Debug */,
+				EC9A264F1C8DC27000365BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9A26501C8DC27000365BFA /* Build configuration list for PBXNativeTarget "MyQCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9A26511C8DC27000365BFA /* Debug */,
+				EC9A26521C8DC27000365BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC9A26451C8DC27000365BFA /* MyQCM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC9A26461C8DC27000365BFA /* MyQCM.xcdatamodel */,
+			);
+			currentVersion = EC9A26461C8DC27000365BFA /* MyQCM.xcdatamodel */;
+			path = MyQCM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC9A262E1C8DC27000365BFA /* Project object */;
+}
